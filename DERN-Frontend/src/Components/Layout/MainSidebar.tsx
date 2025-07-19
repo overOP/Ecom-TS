@@ -12,6 +12,7 @@ interface User {
   name: string;
 }
 
+
 const MainSidebar = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   const [isOpen, setIsOpen] = useState(window.innerWidth >= 768);
